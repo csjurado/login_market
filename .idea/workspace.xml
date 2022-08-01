@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d803f488-b7fa-411b-b234-2195024d2f15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_market.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/add-group.png" afterDir="false" />
+    <list default="true" id="d803f488-b7fa-411b-b234-2195024d2f15" name="Changes" comment="Lunes login codigo valido">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +69,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659358420610</updated>
-      <workItem from="1659358422073" duration="4942000" />
+      <workItem from="1659358422073" duration="5917000" />
     </task>
+    <task id="LOCAL-00001" summary="Lunes login codigo valido">
+      <created>1659363468925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659363468925</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lunes login codigo valido">
+      <created>1659363521485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659363521485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +101,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lunes login codigo valido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lunes login codigo valido" />
   </component>
 </project>

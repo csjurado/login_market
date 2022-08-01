@@ -46,19 +46,6 @@ public class LoginForm extends  JDialog{
         setVisible(true);
     }
 
-    public static void main(String[] args) {
-        LoginForm loginForm = new LoginForm(null);
-        User user = loginForm.user;
-
-        if(user!=null){
-            System.out.println("Atenticacion correcta:"+user.nombre);
-            System.out.println("email: "+user.email);
-            System.out.println("celular:"+user.celular);
-            System.out.println("direccion :"+user.direccion);
-        }else{
-            System.out.println("Autenticacion fallida");
-        }
-    }
     public User user;
     private User getAuthenticationUser(String email,String password){
         User user = null;
@@ -91,5 +78,18 @@ public class LoginForm extends  JDialog{
         }
 
         return user;
+    }
+    public static void main(String[] args) {
+        LoginForm loginForm = new LoginForm(null);
+        User user = loginForm.user;
+
+        if(user!=null){
+            System.out.println("Atenticacion correcta:"+user.nombre);
+            System.out.println("email: "+user.email);
+            System.out.println("celular:"+user.celular);
+            System.out.println("direccion :"+user.direccion);
+        }else{
+            System.out.println("Autenticacion fallida");
+        }
     }
 }
