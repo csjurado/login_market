@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d803f488-b7fa-411b-b234-2195024d2f15" name="Changes" comment="Lunes login codigo valido">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginForm.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +31,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Carlos Jurado/Documents/GitHub/login_market/mysql-connector-java-8.0.30.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Carlos Jurado/Documents/GitHub/login_market/mysql-connector-java-8.0.30.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Carlos Jurado\Documents\GitHub\login_market" />
@@ -70,6 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659358420610</updated>
       <workItem from="1659358422073" duration="5917000" />
+      <workItem from="1659367378414" duration="14000" />
+      <workItem from="1659454193303" duration="3269000" />
     </task>
     <task id="LOCAL-00001" summary="Lunes login codigo valido">
       <created>1659363468925</created>

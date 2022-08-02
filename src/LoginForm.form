@@ -24,7 +24,7 @@
         </constraints>
         <properties>
           <font name="Ravie"/>
-          <text value="sistema de minimarket"/>
+          <text value="Sistema de Registro"/>
         </properties>
       </component>
       <component id="e92dd" class="javax.swing.JLabel">

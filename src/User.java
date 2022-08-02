@@ -5,6 +5,7 @@ public class User extends JDialog {
     public String email;
     public String celular;
     public String direccion;
+
     public String password;
 
 

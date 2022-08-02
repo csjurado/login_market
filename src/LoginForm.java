@@ -19,13 +19,14 @@ public class LoginForm extends  JDialog{
         setModal(true);
         setLocationRelativeTo(parent);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-        //setDefaultLookAndFeelDecorated();
-        setVisible(true);
+        setDefaultLookAndFeelDecorated(true);
+        //setVisible(true);
         okButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
             String email = emailTF.getText();
             String password = String.valueOf(passwordTF.getPassword());
+            System.out.println("boton ok");
 
             user = getAuthenticationUser(email,password);
             if(user!= null){
@@ -40,7 +41,8 @@ public class LoginForm extends  JDialog{
         cancelButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-            dispose();;
+                System.out.println("Boton Cancel");
+                dispose();;
             }
         });
         setVisible(true);
@@ -60,20 +62,21 @@ public class LoginForm extends  JDialog{
             PreparedStatement preparedStatement=conn.prepareStatement(sql);
             preparedStatement.setString(1,email);
             preparedStatement.setString(2,password);
-
+            System.out.println("Conexion ok ");
             ResultSet resultSet=preparedStatement.executeQuery();
             if(resultSet.next()){
                 user= new User();
-                /*
-                user.nombre=resultSet.getString(nombre);
-                user.email=resultSet.getString(email);
-                user.celular=resultSet.getString(celuar);
-                user.direccion=resultSet.getString(direccion);
-                user.password=resultSet.getString(password);
 
-                 */
+                user.nombre=resultSet.getString("nombre");
+                user.email=resultSet.getString("email");
+                user.celular=resultSet.getString("celular");
+                user.direccion=resultSet.getString("direccion");
+                user.password=resultSet.getString("password");
             }
+            stmt.close();
+            conn.close();
         }catch (Exception e){
+            System.out.println("Error de conexion");
             e.printStackTrace();
         }
 
@@ -86,8 +89,9 @@ public class LoginForm extends  JDialog{
         if(user!=null){
             System.out.println("Atenticacion correcta:"+user.nombre);
             System.out.println("email: "+user.email);
-            System.out.println("celular:"+user.celular);
-            System.out.println("direccion :"+user.direccion);
+            System.out.println("celular: "+user.celular);
+            System.out.println("direccion : "+user.direccion);
+            System.out.println("password : "+user.password);
         }else{
             System.out.println("Autenticacion fallida");
         }
